@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Rekap Tagihan Listrik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📊 Rekap Tagihan Listrik</h1>
+  <div id="rekapContainer">Memuat data...</div>
+
+  <div id="detailContainer" class="hidden">
+    <h2 id="detailTitle"></h2>
+    <table id="detailTable">
+      <thead>
+        <tr>
+          <th>ID Pel</th>
+          <th>Nama</th>
+          <th>Tgl Lunas</th>
+          <th>Status</th>
+          <th>Jumlah</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button onclick="closeDetail()">Tutup</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
